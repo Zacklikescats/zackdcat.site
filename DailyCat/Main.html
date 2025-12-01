@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DailyCat</title>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./Main.css">
+</head>
+<body>
+    
+    <h3>DailyCat:</h3>
+
+    <img src="" id="TEST" class="TEST">
+
+    <p class="NMBR" id="TT" ></p>
+
+    <p class="DC" id="" >
+        This website shows you 1 cat photo a day(Yay).
+        You can visit this website so you can see the daily catpic.
+    </p>
+
+    <p class="DC2" id="DC2" ></p>
+
+    <p class="DC3" id="DC3" >
+        If you want to send in your own catpic you can send your photo 
+        <a href="mailto:pleasefeaturemycat@gmail.com">>>here<<</a>
+        .
+    </p>
+
+    <p class="DC4" id="DC4" >
+        Despite everything i am very grateful and i hope you have a great day :) .
+    </p>
+
+    <a href="../homepage.html" >
+        <img src="../imgs/home.png" class="HOME">
+    </a>
+
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+
+        kofiWidgetOverlay.draw('zackdcat', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Ko-fi',
+            'floating-chat.donateButton.background-color': '#5cb85c',
+            'floating-chat.donateButton.text-color': '#fff'
+        });
+
+        let now = new Date();
+
+        let day = new Date().getDate();
+
+        let month = now.getMonth() + 1;
+
+        let monthnames = ["Jan","Feb","Mar","Apr","May","JUN","JUL","AUG","SEP","OCT","NOV","DEC"]
+        let monthname = monthnames[now.getMonth()]
+
+        document.getElementById("TEST").src = `./Images/${day}.jpeg`;
+
+
+        document.getElementById("TT").innerHTML = `${day} ${monthname}`;
+
+
+        document.getElementById("DC2").innerHTML = 
+        `Today's cat pic is for the ${day}th ${monthname}. If you want to support my coding
+        journey and my time online you can support me on
+         ko-fi.`;
+    </script>
+
+</body>
+</html>

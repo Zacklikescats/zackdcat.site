@@ -1,0 +1,235 @@
+body {
+    font-family: "Momo Trust Display", sans-serif;
+    background-color: #4e7746;
+    margin: 0;
+}
+
+.banner {
+    background-color: #0e4e00;
+    padding-bottom: 8vw;
+    padding-top: 5vw;
+}
+
+h3 {
+    position: absolute;
+    font-family: "Momo Trust Display", sans-serif;
+    top: -1.1vw;
+    left: 2.5vw;
+    color: #000000;
+    font-size: 11.5vw;
+    margin: 0vw;
+    z-index: 10;   
+
+}
+
+h3:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.mainpic {
+    position: absolute;
+    top: 6.7vw;
+    left: 62%;
+    width: 10vw;
+    max-width: 8%;
+    height: auto;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+}
+
+
+
+.sites {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 96vw;
+    margin: 2vw;
+    gap: 1vw;
+}
+
+.endlesstype {
+    padding: 1vw;
+    color: rgb(0, 0, 0);
+    border-radius: 1vw;
+    font-size: 4.5vw;
+    background-color: #333;
+    text-align: center;
+    text-decoration: none;
+} 
+
+.catfia {
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+    color: #fff;
+    border-radius: 1vw;
+    font-size: 5vw;
+    font-family: 'Aldrich', sans-serif;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+
+
+.dailycat {
+    padding: 1vw;
+    color: rgb(0, 0, 0);
+    background-image: url("./imgs/dailycaticon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1vw;
+    font-size: 5vw;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+} 
+
+.cliffface {
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    color: rgb(0, 0, 0);
+    background-image: url("./imgs/Banner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 1vw;
+    font-size: 5vw;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Oswald', sans-serif;
+    justify-content: center;
+} 
+
+.Supporters {
+    padding-top: 1vw;
+    padding-bottom: 0.7vw;
+    color: rgb(0, 0, 0);
+    background-color: #ecdede;
+    border-radius: 1vw;
+    font-size: 4vw;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Momo Trust Display", sans-serif;
+    justify-content: center;
+} 
+
+.Random_ideas {
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    color: rgb(0, 0, 0);
+    background-color: #00430d;
+    border-radius: 1vw;
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Momo Trust Display", sans-serif;
+    justify-content: center;
+    background-image: url("./imgs/Screenshot\ 2025-11-28\ 171210.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+} 
+
+.PRJCTS {
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    color: rgb(0, 0, 0);
+    background-color: #00430d;
+    border-radius: 1vw;
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Momo Trust Display", sans-serif;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.catfia:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(255, 255, 255);
+}
+
+@media (min-width: 500px) {
+  .sites {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cliffface {
+    padding-top: 0.09vw;
+    padding-bottom: 0.07vw;
+  }
+  .catfia {
+    padding-top: 0.9vw;
+    padding-bottom: 0.9vw;
+  }
+  .dailycat {
+    padding-top: 0.6vw;
+    padding-bottom: 0.6vw;
+  }
+  .Random_ideas {
+    font-size: 3.5vw;
+    padding-top: 1.2vw;
+    padding-bottom: 1.2vw;
+  }
+}
+
+@media (min-width: 900px) {
+  .sites {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .Supporters {
+    font-size: 3.4vw;
+    padding-bottom: 1.2vw;
+  }
+  .catfia {
+    padding-top: 1.1vw;
+    padding-bottom: 0.8vw;
+  }
+  .dailycat {
+    padding-top: 0.8vw;
+    padding-bottom: 0.53vw;
+  }
+  .cliffface {
+    padding-top: 0.2vw;
+    padding-bottom: 0.3vw;
+  }
+  .cliffface {
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    font-size: 4vw;
+  }
+}
+
+@media (min-width: 1200px) {
+  .sites {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .cliffface {
+    padding-top: 0.95vw;
+    padding-bottom: 1vw;
+  }
+  .Random_ideas {
+    font-size: 3.3vw;
+    padding-top: 1.3vw;
+    padding-bottom: 1.3vw;
+  }
+  .dailycat {
+    font-size: 4.3vw;
+    padding-top: 1.1vw;
+    padding-bottom: 1.15vw;
+  }
+}
+

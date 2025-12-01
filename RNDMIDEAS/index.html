@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random_ideas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Momo+Trust+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="HDDR">
+        <h3>Random_ideas</h3>
+    </header>
+
+    <button class="BTTN" onclick="IDEA()">
+        <abbr title="Try and relate this to your project to get new found inspiration">
+            Give me a random idea.
+        </abbr>
+    </button>
+
+    <div class="ideaBX">
+
+        <!-- <progress class="PRGRSBR"></progress> -->
+         
+        <p class="idea" id="placeideahere">
+            Press the button to generate
+        </p>
+
+    </div>
+
+    <a href="../homepage.html" >
+        <img src="../imgs/home.png" class="HOME">
+    </a>
+    
+    <script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+    <script>
+        kofiWidgetOverlay.draw('zackdcat', {
+            'type': 'floating-chat',
+            'floating-chat.donateButton.text': 'Ko-fi',
+            'floating-chat.donateButton.background-color': '#5cb85c',
+            'floating-chat.donateButton.text-color': '#fff'
+        });
+    </script>
+
+    <script src="./index.js" defer></script>
+
+
+</body>
+</html>

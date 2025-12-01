@@ -1,0 +1,67 @@
+body {
+    background-color: #f0f0f0;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+h3 {
+    position: absolute;
+    font-family: "Momo Trust Display", sans-serif;
+    left: 2.5%;
+    color: #000000;
+    font-size: 10vw;
+    margin: 0%;
+}
+
+.TEST {
+    width: 59.5vw;
+    height: auto;
+}
+
+.NMBR {
+    position: absolute;
+    top: -7vw;
+    left: 63vw;
+    font-size: 9vw;
+}
+
+.DC {
+    position: absolute;
+    top: 10.5vw;
+    left: 63.6vw;
+    margin-right: 3vw;
+    font-size: 2.6vw;
+}
+
+.DC2 {
+    position: absolute;
+    top: 28.5vw;
+    left: 63.5vw;
+    margin-right: 3vw;
+    font-size: 2.6vw;
+}
+
+
+.DC3 {
+    position: absolute;
+    top: 49.5vw;
+    left: 63.6vw;
+    margin-right: 3vw;
+    font-size: 2.6vw;
+}
+
+.DC4 {
+    position: absolute;
+    top: 64.5vw;
+    left: 63.6vw;
+    margin-right: 3vw;
+    font-size: 2.6vw;
+}
+
+.HOME {
+  position: fixed;
+  left: 92%;
+  bottom: 1%;
+  width: 7%;
+  height: auto;
+  z-index: 9999;
+}

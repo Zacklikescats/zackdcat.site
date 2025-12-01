@@ -1,0 +1,87 @@
+body {
+    font-family: 'Aldrich', sans-serif;
+    background-color: #f0f0f0;
+    
+}
+
+header {
+    background-color: #000000;
+    color: #fff;
+    padding-top:  3vw;
+    padding-bottom:  3vw;
+    text-align: center;
+    font-size: 10vw;
+}
+
+header h3 {
+    position: absolute;
+    left: 2.5%;
+    color: #fff;
+    font-size: 10vw;
+    margin: 0%;
+}
+
+header .lore,
+header .oursoftware {
+    white-space: nowrap;
+}
+
+header .lore {
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    font-size: 4.5vw;
+    margin: 0%;
+    left: 37vw;
+    top: 6.4vw;
+}
+
+header .oursoftware {
+    position: absolute;
+    top: 6.5vw;
+    left: 60vw;
+    font-size: 4.5vw;
+}
+
+header a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.MUNYBAG {
+    image-rendering: pixelated;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 24.85%;
+    margin-right: 17.4%;
+    margin-left: 0%;
+}
+
+#PAYBTTN {
+    background-color: #003f02;
+    position: absolute;
+    color: #fff;
+    border: none;
+    padding: 0.5em 1em;
+    font-size: 4vw;
+    cursor: pointer;
+    top: 65vw;
+    left: 49.95vw;
+    transform: translate(-50%, -50%);
+    max-height: 60%;
+    font-family: 'Aldrich', sans-serif;
+}
+
+#PAYBTTN:hover {
+    background-color: #005503;
+}
+
+.HOME {
+  position: fixed;
+  left: 92%;
+  bottom: 1%;
+  width: 7%;
+  height: auto;
+  z-index: 9999;
+}

@@ -1,0 +1,81 @@
+body {
+    background-color: #314931;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+h3 {
+    position: absolute;
+    font-family: "Momo Trust Display", sans-serif;
+    left: 2.5%;
+    color: #000000;
+    font-size: 10vw;
+    margin: 0%;
+    top: 0vw;
+}
+
+.HDDR {
+    background-color: #18572d;
+    padding-top: 5vw;
+    padding-bottom: 7.5vw;
+}
+
+.BTTN {
+    position: absolute;
+    font-family: "Momo Trust Display", sans-serif;
+    background-color: rgb(26, 165, 26);
+    left: 50vw;
+    top: 20vw;
+    transform: translate(-50%, -50%);
+    font-size: 4.5vw;
+    width: 70vw;
+    height: 7vw;
+}
+
+.BTTN:hover {
+    background-color: rgb(14, 143, 14);
+}
+
+.BTTN:active {
+    background-color: rgb(58, 156, 58);
+}
+
+.ideaBX {
+    position: absolute;
+    top: 25vw;
+    left: 5vw;
+    background-color: aliceblue;
+    border-radius: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 50vw;
+    padding-left: 1vw;
+    padding-right: 89.5vw;
+    border: 1vw solid #000000;
+    z-index: 4;
+}
+
+.PRGRSBR {
+    position: absolute;
+    left: 45.25vw;
+    transform: translate(-50%, -50%);
+    width: 90vw;
+    z-index: 2;
+}
+
+.idea {
+    position: absolute;
+    left: 44.5vw;
+    top: 21.5vw;
+    font-size: 4vw;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 3;
+}
+
+.HOME {
+  position: fixed;
+  left: 92%;
+  bottom: 1%;
+  width: 7%;
+  height: auto;
+  z-index: 9999;
+}

@@ -1,0 +1,84 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+img {
+  width: 96vw;
+  margin: 3px auto;
+  border-radius: 15px;
+  height: 35vw;
+  display: block;
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.image-container img {
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -52%);
+  color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  font-size: 25vw;
+  letter-spacing: 1px;
+  text-align: center;
+  user-select: none;
+}
+
+
+.download-text {
+  font-family: 'Poppins', sans-serif;
+  content: "Sorry, this isn’t an image!";
+}
+
+
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 8px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  img {
+    border-radius: 8px;
+  }
+}
+
+.HOME {
+  position: fixed;
+  left: 92%;
+  bottom: 1%;
+  width: 7%;
+  height: auto;
+  z-index: 9999;
+}
+

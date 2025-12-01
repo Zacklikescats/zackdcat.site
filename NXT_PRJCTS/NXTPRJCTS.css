@@ -1,0 +1,150 @@
+body {
+    font-family: "Momo Trust Display", sans-serif;
+    background-color: #4e7746;
+    margin: 0;
+}
+
+.banner {
+    background-color: #0e4e00;
+    padding-bottom: 8vw;
+    padding-top: 5vw;
+}
+
+h3 {
+    position: absolute;
+    font-family: "Momo Trust Display", sans-serif;
+    top: -1.1vw;
+    left: 2.5vw;
+    color: #000000;
+    font-size: 11.5vw;
+    margin: 0vw;
+    z-index: 10;   
+
+}
+
+h3:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.mainpic {
+    position: absolute;
+    top: 6.5vw;
+    left: 78%;
+    width: 12vw;
+    max-width: 8%;
+    height: auto;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+}
+
+
+
+.sites {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 96vw;
+    margin: 2vw;
+    gap: 1vw;
+}
+
+.BMD {
+    padding: 1vw;
+    color: rgb(94, 94, 94);
+    border-radius: 1vw;
+    font-size: 5vw;
+    top: 50%;
+    background-image: url("./imgs/pic.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Catestry {
+    padding: 1vw;
+    color: rgb(0, 0, 0);
+    border-radius: 1vw;
+    font-size: 5vw;
+
+    background-image: url("./imgs/dailycaticon.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    text-decoration: none;
+} 
+
+.Ratetoday {
+    padding: 1vw;
+    color: rgb(255, 0, 0);
+    border-radius: 1vw;
+    font-size: 5vw;
+
+    background-color: #09ff00;
+    text-align: center;
+    text-decoration: none;
+} 
+
+.Noticeboard {
+    padding: 1vw;
+    color: rgb(0, 0, 0);
+    border-radius: 1vw;
+    font-size: 4.5vw;
+
+    background-color: #554630;
+    text-align: center;
+    text-decoration: none;
+} 
+
+.APIs {
+    padding: 1vw;
+    color: rgb(0, 0, 0);
+    border-radius: 1vw;
+    font-size: 5vw;
+
+    background-color: #333;
+    text-align: center;
+    text-decoration: none;
+} 
+
+
+@media (min-width: 500px) {
+  .sites {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 900px) {
+  .sites {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1200px) {
+  .sites {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+.HOME {
+  position: fixed;
+  left: 92%;
+  bottom: 1%;
+  width: 7%;
+  height: auto;
+  z-index: 9999;
+}

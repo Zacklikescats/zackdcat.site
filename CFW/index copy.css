@@ -1,0 +1,63 @@
+body {
+  background-color: #ffffff;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+
+img {
+  margin: 3px auto;
+  border-radius: 15px;
+  height: auto;
+  display: block;
+}
+
+.image-container {
+  position: absolute;
+  display: inline-block;
+  text-align: center;
+}
+
+.image-container img {
+  height: auto;
+  display: block;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-51%, -53%);
+  color: rgb(255, 255, 255);
+  font-size: 900%;
+  font-family: 'Oswald', sans-serif;
+  text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+
+.download-text {
+  font-family: 'Poppins', sans-serif;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-count: 2;
+  column-gap: 10px;
+  gap: 10px;
+  max-width: 1015px;
+  margin: 0 auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.image-grid img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .image-grid {
+    grid-template-columns: 1fr;
+  }
+}
