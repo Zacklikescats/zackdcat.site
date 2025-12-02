@@ -1,7 +1,7 @@
 console.log("JS loaded!");
 
 async function IDEA() {
-    const response = await fetch("https://api.datamuse.com/words?sp=???????");
+    const response = await fetch("https://api.datamuse.com/words?sp=??????");
     const data = await response.json();
 
     const randomIndex = Math.floor(Math.random() * data.length);
