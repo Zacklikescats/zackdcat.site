@@ -1,0 +1,136 @@
+main {
+    max-width: 800px;      /* limits content width for easier reading */
+    margin: 80px auto 100px auto; /* center content and leave space for header/footer */
+    padding: 20px;
+    line-height: 1.6;      /* improves readability */
+    font-family: Arial, sans-serif;
+    color: #222;           /* dark text on light background */
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+main h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #0e4e00;
+}
+
+main h3 {
+    font-size: 1.4em !important; /* !important forces the style */
+    margin-top: 25px !important;
+    margin-bottom: 10px !important;
+    color: #0c2b00 !important;
+}
+
+main ul {
+    padding-left: 20px !important;
+    margin-bottom: 15px !important;
+    list-style-type: disc !important; /* ensures bullets appear */
+}
+
+main ul li {
+    margin-bottom: 10px !important;
+    line-height: 1.5 !important;
+}
+
+
+main p, main ul {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+main ul {
+    padding-left: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+}
+
+main a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+main a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: "Momo Trust Display", sans-serif;
+    background-color: #4e7746;
+    margin: 0;
+}
+
+.banner {
+    background-color: #0e4e00;
+    padding-bottom: 8vw;
+    padding-top: 5vw;
+}
+
+.ZDCTT {
+    position: absolute;
+    font-family: "Momo Trust Display", sans-serif;
+    top: -1.1vw;
+    left: 2.5vw;
+    color: #000000;
+    font-size: 11.5vw;
+    margin: 0vw;
+    z-index: 10;   
+
+}
+
+.DFS {
+    font-family: "Momo Trust Display", sans-serif;
+    position: absolute;
+    top: 50vw;
+    left: 50vw;
+    font-size: 3vw;
+    z-index: 14; 
+}
+
+h3:hover {
+    text-decoration: underline;
+    text-decoration-color: black;
+}
+
+.mainpic {
+    position: absolute;
+    top: 6.7vw;
+    left: 62%;
+    width: 10vw;
+    max-width: 8%;
+    height: auto;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    transform-origin: center;
+}
+
+.FTR {
+  font-size: 2.5vw;
+  margin: 0;
+}
+
+.site-footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #0e4e00;
+    text-align: center;
+    color: #0c2b00;
+    padding: 1vw 0;
+}
+
+.site-footer a {
+    color: #000000;
+    text-decoration: none;
+    margin: 0 1vw;
+    font-weight: bold;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
