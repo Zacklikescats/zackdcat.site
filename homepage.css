@@ -161,6 +161,24 @@ h3:hover {
     justify-content: center;
 }
 
+.WLSS {
+    padding-top: 1.5vw;
+    padding-bottom: 1.5vw;
+    background-color: #fff;
+    border-radius: 1vw;
+    font-size: 3vw;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Momo Trust Display", sans-serif;
+    justify-content: center;
+}
+
+.g1 { color: #4285F4; }
+.g2 { color: #EA4335; }
+.g3 { color: #FBBC05; }
+.g4 { color: #34A853; }
+
+
 
 a {
     text-decoration: none;
