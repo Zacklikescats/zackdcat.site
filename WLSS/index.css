@@ -1,0 +1,62 @@
+body {
+    margin: 0vw;
+    background-color: #ffffff;
+    font-family: "Momo Trust Display", sans-serif;
+}
+
+h3 {
+    position: absolute;
+    top: 30vw;
+    margin: 0vw;
+    font-family: "Momo Trust Display", sans-serif;
+    left: 50%;
+    color: #000000;
+    font-size: 25vw;
+    margin: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.INPT {
+    position: absolute;
+    top: 48vw;
+    margin: 0vw;
+    font-family: "Momo Trust Display", sans-serif;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60vw;
+    height: 5vw;
+    font-size: 4vw;
+    border-radius: 50vw;
+    border-width: 1vw;
+    padding-left: 3vw;
+}
+
+input {
+    caret-color: black;  
+    width: 3vw;
+}
+
+.RTAS {
+    position: absolute;
+    left: 2vw;
+    top: 78vw;
+    font-size: 3vw;
+
+    font-family: "Momo Trust Display", sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.RTAS:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.HOME {
+  position: fixed;
+  left: 92%;
+  bottom: 1%;
+  width: 7%;
+  height: auto;
+  z-index: 9999;
+}
