@@ -39,7 +39,7 @@ input {
 .RTAS {
     position: absolute;
     left: 2vw;
-    top: 78vw;
+    bottom: -2vw;
     font-size: 3vw;
 
     font-family: "Momo Trust Display", sans-serif;
@@ -59,4 +59,18 @@ input {
   width: 7%;
   height: auto;
   z-index: 9999;
+}
+
+@media (max-width: 800px) {
+  .ad-center {
+    opacity: 0;
+  }
+}
+
+.ad-center {
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: 60vw;
+    transform: translate(-50%, -50%);
 }
