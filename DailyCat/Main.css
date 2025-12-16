@@ -65,3 +65,17 @@ h3 {
   height: auto;
   z-index: 9999;
 }
+
+.ad-center {
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: 85vw;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 800px) {
+  .ad-center {
+    opacity: 0;
+  }
+}
