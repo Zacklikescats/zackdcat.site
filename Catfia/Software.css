@@ -101,3 +101,31 @@ header a {
   height: auto;
   z-index: 9999;
 }
+.ad-center4 {
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: 82vw;
+    transform: translate(-50%, -50%);
+}
+.ad-center1 {
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: 72vw;
+    transform: translate(-50%, -50%);
+}
+.ad-center2 {
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: 62vw;
+    transform: translate(-50%, -50%);
+}
+.ad-center3 {
+    position: absolute;
+    z-index: 9999;
+    left: 50%;
+    top: 52vw;
+    transform: translate(-50%, -50%);
+}
