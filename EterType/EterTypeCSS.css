@@ -52,7 +52,7 @@ h3:hover {
     left: 5.5vw;
     top: 14vw;
     right: 10vw;
-    font-size: 250%;
+    font-size: 3vw;
 }
 
 
@@ -225,4 +225,18 @@ h3:hover {
   width: 7%;
   height: auto;
   z-index: 9999;
+}
+
+.ad-center {
+    position: absolute;
+    left: 50%;
+    top: 55vw;
+    transform: translate(-50%, -50%);
+    z-index: -2;
+}
+
+@media (max-width: 800px) {
+  .ad-center {
+    opacity: 0;
+  }
 }
