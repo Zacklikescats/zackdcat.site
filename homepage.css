@@ -224,7 +224,11 @@ a:hover {
 }
 
 .ad-center {
+    position: absolute;
     z-index: 9999;
+    left: 50%;
+    top: 50vw;
+    transform: translate(-50%, -50%);
 }
 
 @media (min-width: 500px) {
@@ -232,8 +236,8 @@ a:hover {
     grid-template-columns: repeat(2, 1fr);
   }
   .cliffface {
-    padding-top: 0.09vw;
-    padding-bottom: 0.07vw;
+    padding-top: 0.0175w;
+    padding-bottom: 0.75vw;
   }
   .catfia {
     padding-top: 0.9vw;
@@ -248,7 +252,16 @@ a:hover {
     padding-top: 1.2vw;
     padding-bottom: 1.2vw;
   }
+  .ad-center {
+    top: 65vw;
+  }
 }
+@media (max-width: 800px) {
+  .ad-center {
+    opacity: 0;
+  }
+}
+
 
 @media (min-width: 900px) {
   .sites {
@@ -259,8 +272,8 @@ a:hover {
     padding-bottom: 1.4vw;
   }
   .catfia {
-    padding-top: 1.1vw;
-    padding-bottom: 0.8vw;
+    padding-top: 1.55vw;
+    padding-bottom: 1.25vw;
   }
   .dailycat {
     padding-top: 0.8vw;
@@ -274,6 +287,9 @@ a:hover {
     padding-top: 0.5vw;
     padding-bottom: 0.5vw;
     font-size: 4vw;
+  }
+  .ad-center {
+    top: 47vw;
   }
 }
 
@@ -295,5 +311,15 @@ a:hover {
     padding-top: 1.1vw;
     padding-bottom: 1.15vw;
   }
+  .ad-center {
+    bottom: 5vw;
+  }
+  .ad-center {
+    top: 54vw;
+  }
 }
-
+/* @media (min-width: 1800px) {
+  .ad-center {
+    top: 54vw;
+  }
+} */
