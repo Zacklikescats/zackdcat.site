@@ -1,3 +1,14 @@
+// window.addEventListener('keydown', function(e) {
+//   if (e.code === 'Space' || e.keyCode === 32) {
+//     // Allow space in inputs, textareas, and contenteditable elements
+//     if (e.target.tagName !== 'INPUT' && 
+//         e.target.tagName !== 'TEXTAREA' && 
+//         !e.target.isContentEditable) {
+//       e.preventDefault();
+//     }
+//   }
+// });
+
 //SENTENCES RANDOM \/\/\/
 let Sentences = [
     "this website is the infinite version of code monkey",
