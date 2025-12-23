@@ -1,1 +1,1 @@
-Making my site open-source.
+Making my website open-source.
